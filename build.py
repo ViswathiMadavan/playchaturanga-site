@@ -128,7 +128,7 @@ page("/privacy/", "Privacy Policy — Chaturanga",
 <li><strong>Your games and progress:</strong> delete single games in the app's game list, or delete the app to remove everything it stored.</li>
 <li><strong>Emails you sent us:</strong> ask us to delete them at {privacy}.</li>
 </ul>
-<p>Depending on where you live, you may have legal rights to see, correct or delete personal information held about you, and to object to how it is used. Because the app keeps your data on your device and we hold no account for you, the only personal information we can hold is email you sent us. To use any of these rights, write to {privacy}; we answer within 30 days.</p>
+<p id="rights"><span id="gdpr"></span><span id="india"></span><span id="russia"></span><span id="international"></span>Depending on where you live, you may have legal rights to see, correct or delete personal information held about you, and to object to how it is used. Because the app keeps your data on your device and we hold no account for you, the only personal information we can hold is email you sent us. To use any of these rights, write to {privacy}; we answer within 30 days.</p>
 
 <h2 id="website">This website</h2>
 <p>This website sets no cookies and uses no analytics. It is hosted by GitHub Pages and served through Cloudflare, which, like any web host, process technical data such as your IP address in order to deliver the pages. Email to our addresses is forwarded by Cloudflare to our inbox.</p>
