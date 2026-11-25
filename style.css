@@ -1,0 +1,34 @@
+:root {
+  --bg: #faf7f2; --card: #ffffff; --ink: #1f1b16; --muted: #6b635a; --line: #e6dfd3; --accent: #9a5b13;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #171512; --card: #211e1a; --ink: #f1ece4; --muted: #a79f93; --line: #37322b; --accent: #e0a458; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+header { padding-top: 28px; padding-bottom: 12px; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; }
+header .name { font-weight: 800; font-size: 20px; color: var(--ink); text-decoration: none; margin-right: auto; }
+header nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+a { color: var(--accent); }
+header nav a { text-decoration: none; font-weight: 600; }
+header nav a[aria-current="page"] { text-decoration: underline; }
+h1 { font-size: 32px; line-height: 1.2; margin: 28px 0 6px; }
+h2 { font-size: 21px; line-height: 1.3; margin: 34px 0 8px; }
+p, li { color: var(--ink); }
+.updated, .muted { color: var(--muted); font-size: 15px; }
+.summary { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 6px 20px; margin: 20px 0; }
+.summary li { margin: 6px 0; }
+.hero { padding: 36px 0 8px; }
+.hero h1 { font-size: 40px; margin-top: 0; }
+.hero p.lead { font-size: 20px; color: var(--muted); margin-top: 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 24px 0; padding: 0; list-style: none; }
+.cards li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+.cards strong { display: block; font-size: 18px; }
+footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 18px; padding-bottom: 40px; color: var(--muted); font-size: 15px; }
+footer a { margin-right: 16px; }
+h3 { font-size: 18px; line-height: 1.35; margin: 24px 0 4px; }
