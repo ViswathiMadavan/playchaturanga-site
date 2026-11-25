@@ -66,7 +66,7 @@ page("/", "Chaturanga — chess, the ancient game it came from, and four-player 
 <ul>
 <li>A computer opponent for every game, picked for your level.</li>
 <li>Puzzles, openings and endgames to practise, chosen for you.</li>
-<li>A review of each finished game.</li>
+<li>A review of each finished chess and chaturanga game.</li>
 <li>A simpler, picture-based version for children.</li>
 <li>Everything works without a connection and without an account.</li>
 </ul>
@@ -194,7 +194,7 @@ page("/support/", "Support — Chaturanga",
 <h3>How do I set the app up for a child?</h3>
 <p>Under <strong>Me</strong>, set <strong>Who is playing</strong> to <strong>A child</strong>. The child version uses large picture tiles, shows no rating number, and keeps settings behind a question for a grown-up.</p>
 <h3>Where are my past games?</h3>
-<p>Under <strong>Me</strong>, then <strong>My games</strong>. Open any game to replay it and see its review.</p>
+<p>Under <strong>Me</strong>, then <strong>My games</strong>. Open any game to replay it; chess and chaturanga games also have a move-by-move review.</p>
 <h3>Does the app need a connection or an account?</h3>
 <p>No. Everything runs on your device, and there is nothing to sign in to.</p>
 <h3>How do I delete my data?</h3>
